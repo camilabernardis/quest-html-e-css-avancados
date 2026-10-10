@@ -34,6 +34,12 @@ body{
     border-radius: 50px;
     color: hsl(257, 40%, 49%);
     font-size: 15px;
+    transition: 0.3s;
+}
+
+.bnt:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
 }
 
 .icons{
@@ -44,12 +50,18 @@ body{
     margin-right: 30px;
 }
 
+.icons a:hover{
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
+
 .face a{
     color: #fff;
     border-style: solid;
     border-radius: 50%;
     border-color: #fff;
     padding: 10px 20px;
+    transition: 0.3s;
 }
 
 .ttw a, .inst a{
@@ -58,4 +70,5 @@ body{
     border-radius: 50%;
     border-color: #fff;
     padding: 10px 15px;
+    transition: 0.3s;
 }
